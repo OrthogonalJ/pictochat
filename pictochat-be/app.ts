@@ -17,6 +17,7 @@ import { handleErrorMiddleware } from './middleware/handle-error-middleware';
 import config from './utils/config';
 
 // CONSTANTS
+
 const PORT = config.PORT;
 const WEB_CONTENT_DIR = config.WEB_CONTENT_DIR;
 const FRONTEND_REQUEST_ORIGIN = config.FRONTEND_REQUEST_ORIGIN;
